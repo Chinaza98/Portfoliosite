@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- for mobile responsiveness, you need this meta tag -->
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>Mobile Responsiveness Example</title>
+    <!-- this link tag displays a little icon in the tab of your 
+        active browser window. It's called a "favicon"
+        (favorite icon)-->
+    <link rel="icon" type="image/gif" href="./favicon.gif">
+    <!-- this is the external stylesheet that contains
+        the @media screen breakpoint rules
+    -->
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+</head>
+<body>
+    <header>
+        <h2 style="text-align: center;" id="deviceName"></h2>
+    </header>
+
+    <nav class="topnav">
+        <a href="Contactus.html">Contact</a>
+        <a href="#">About</a>
+        <a href="#">Home</a>
+    </nav>
+    
+<div class="container">
+
+    <main>
+        <section id="main-bio">
+
+            <img id="bio-image" src="https://media.licdn.com/dms/image/C5603AQH87Dn7---AhA/profile-displayphoto-shrink_800_800/0/1645570060686?e=1712188800&v=beta&t=9JsE2LjTER_Hrq0TkktzsRFXDFOGiwlKSozwrPu46Q4" alt="Chinaza'S Image">
+
+            <p>
+               I have a background in UX Design, I'm super excited about integrating development into my added skills.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.
+            </p>
+
+            <p>
+                Proin lacinia fermentum ligula, eget pulvinar turpis dignissim eu. Ut sapien ipsum, dictum a vulputate ut, dignissim pretium nunc. Integer varius felis et nunc sollicitudin ac aliquet felis interdum. Sed tincidunt, nunc ac faucibus commodo, purus libero vestibulum elit, nec varius elit justo eu nisi. Sed justo quam, lobortis ut mollis sed, tristique sit amet ipsum. Donec dignissim purus in sem pulvinar sit amet pellentesque purus interdum. Pellentesque ornare varius elit, in gravida elit malesuada vel. Etiam enim urna, pretium eget bibendum id, eleifend ac neque. Donec consectetur libero eget urna consectetur mattis.
+            </p>
+</div>
+
+        </section>
+    </main>
+
+    <div class="row"> 
+        <div class="column">
+          <img src="https://designshack.net/images/designs/dental-doctor-small.jpg" style="width:100%">
+          <img src="https://designshack.net/images/designs/signupanywhere-small.jpg" style="width:100%">
+        </div>
+    <br>
+    <br>
+
+     <div class="column">
+        <img src="https://designshack.net/images/designs/terra-centre-small.jpg" style="width:100%">
+        <img src="https://designshack.net/images/designs/presenter-bold-wordpress-theme-small.jpg" style="width:100%">
+          </div>  
+
+    <!-- hint: I can place a script tag here to load an
+        external javascript file as well as place it in the
+        head tags. Placing it here ensure that all the elements
+        of my web page are rendered first, so that the javascript
+        code can recognize the elenents above the closed body
+        tag :) -->
+    <script src="Assets/JS/device.js">
+    </script>
+</body>
+</html>
